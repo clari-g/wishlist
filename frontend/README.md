@@ -1,4 +1,4 @@
-# wishlist
+# Wishlist - Frontend
 
 ## Project setup
 ```
