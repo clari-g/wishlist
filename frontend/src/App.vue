@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Logo" src="./assets/lista-de-deseos.png">
-    <HelloWorld msg="Wishlist" text="descripcion de prueba"/>
+    <HelloWorld/>
   </div>
 </template>
 
