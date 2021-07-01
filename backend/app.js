@@ -27,14 +27,10 @@ app.get('/getSiteMeta', (req, res) => {
   }
 })
 
-app.use((req, res, next) => {
-  res.status(404).send({
-    error: {
-    status: 404,
-    error: 'Not found'
-    }
-  })
- })
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })

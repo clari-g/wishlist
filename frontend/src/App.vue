@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <img alt="Logo" src="./assets/lista-de-deseos.png">
+  <div id="app">    
     <HelloWorld/>
   </div>
 </template>
@@ -23,7 +22,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+body {
+  height: 100%;
+  background-color: #f3f3f3 !important;
 }
 img {
   width: 10vw;
