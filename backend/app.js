@@ -1,4 +1,3 @@
-// TODO: TypeORM ?
 const linkPreview = require('link-preview-js');
 const express = require('express');
 var cors = require('cors');
